@@ -1,10 +1,11 @@
 ﻿using Dapper;
 using DependencyStore.Models;
+using DependencyStore.Repositories.Contracts;
 using Microsoft.Data.SqlClient;
 
 namespace DependencyStore.Repositories;
 
-public class CustomerRepository {
+public class CustomerRepository : ICustomerRepository {
 
     private readonly SqlConnection _connection;
 
