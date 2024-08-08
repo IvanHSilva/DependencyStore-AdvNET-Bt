@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\2813\\Demos\\01 - Inicial\\DependencyStore\\DependencyStore.csproj": {}
+    "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\DependencyStore\\DependencyStore.csproj": {}
   },
   "projects": {
-    "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\2813\\Demos\\01 - Inicial\\DependencyStore\\DependencyStore.csproj": {
+    "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\DependencyStore\\DependencyStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\2813\\Demos\\01 - Inicial\\DependencyStore\\DependencyStore.csproj",
+        "projectUniqueName": "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\DependencyStore\\DependencyStore.csproj",
         "projectName": "DependencyStore",
-        "projectPath": "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\2813\\Demos\\01 - Inicial\\DependencyStore\\DependencyStore.csproj",
+        "projectPath": "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\DependencyStore\\DependencyStore.csproj",
         "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-        "outputPath": "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\2813\\Demos\\01 - Inicial\\DependencyStore\\obj\\",
+        "outputPath": "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\DependencyStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z85UUBUHIWQ=",
+  "dgSpecHash": "/ht/Egs1oqE=",
   "success": true,
-  "projectFilePath": "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\2813\\Demos\\01 - Inicial\\DependencyStore\\DependencyStore.csproj",
+  "projectFilePath": "E:\\DEV-Projects\\!Balta-io\\AdvancedNET\\DependencyStore\\DependencyStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ivan\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Ivan\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
