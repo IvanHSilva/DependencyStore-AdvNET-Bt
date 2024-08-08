@@ -12,11 +12,13 @@ public class OrderController : ControllerBase {
 
     private readonly ICustomerRepository _repository;
     private readonly IDeliveryFeeService _service;
+    private readonly IPromoCodeRepository _promo;
 
     public OrderController(ICustomerRepository customerRepository, 
-        IDeliveryFeeService deliveryFeeService) {
+        IDeliveryFeeService deliveryFeeService, IPromoCodeRepository promoCodeRepository) {
         _repository = customerRepository;
         _service = deliveryFeeService;
+        _promo = promoCodeRepository;
     }
 
     [Route("v1/orders")]
@@ -30,6 +32,7 @@ public class OrderController : ControllerBase {
 
         // #2 - Calcula o frete
         double deliveryFee = await _service.GetDeliveryFeeAsync(zipCode);
+        PromoCode cupom = await _promo.GetPromoCodeAsync(promoCode);
 
         // #3 - Calcula o total dos produtos
         decimal subTotal = 0;
