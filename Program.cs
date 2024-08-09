@@ -1,3 +1,4 @@
+using DependencyStore;
 using DependencyStore.Repositories;
 using DependencyStore.Repositories.Contracts;
 using DependencyStore.Services;
@@ -6,6 +7,7 @@ using Microsoft.Data.SqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddSingleton<Configuration>();
 builder.Services.AddScoped(c => new SqlConnection("CONNECTION_STRING"));
 builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
 builder.Services.AddTransient<IPromoCodeRepository, PromoCodeRepository>();
